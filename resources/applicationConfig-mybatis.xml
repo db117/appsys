@@ -28,6 +28,13 @@
 		<property name="maxWait" value="${maxWait}" />
 		<property name="removeAbandonedTimeout" value="${removeAbandonedTimeout}" />
 		<property name="removeAbandoned" value="${removeAbandoned}" />
+		<!-- sql 心跳 -->
+		<property name="testWhileIdle" value="true" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testOnReturn" value="false" />
+		<property name="validationQuery" value="select 1" />
+		<property name="timeBetweenEvictionRunsMillis" value="60000" />
+		<property name="numTestsPerEvictionRun" value="${maxActive}" />
 	</bean>
 
 
