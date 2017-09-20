@@ -39,78 +39,41 @@
 		<div class="login_wrapper">
 			<div class="animate form login_form">
 				<section class="login_content">
-				<form action="${pageContext.request.contextPath}/dev/doLogin" method="post">
-					<h1>APP开发者平台登录</h1>
-					<div>
-						<input type="text" class="form-control" name="devCode" placeholder="请输入用户名"
-							required="" />
-					</div>
-					<div>
-						<input type="password" class="form-control" name="devPassword" placeholder="请输入密码"
-							required="" />
-					</div>
-					<span>${error }</span>
-					<div>
-						<input type="submit" value="登录" class="btn btn-default submit">
-						<input type="reset" value="重填" class="btn btn-default submit">
-					</div>
-
-					<div class="clearfix"></div>
-
-					<div class="separator">
-						<p class="change_link">
-							没有帐号? <a href="#signup" class="to_register"> 注册 </a>
-						</p>
+					<form action="${pageContext.request.contextPath}/dev/doLogin"
+						method="post">
+						<h1>APP开发者平台登录</h1>
+						<div>
+							<input type="text" class="form-control" name="devCode"
+								placeholder="请输入用户名" required="" />
+						</div>
+						<div>
+							<input type="password" class="form-control" name="devPassword"
+								placeholder="请输入密码" required="" />
+						</div>
+						<span>${error }</span>
+						<div>
+							<input type="submit" value="登录" class="btn btn-default submit">
+							<input type="reset" value="重填" class="btn btn-default submit">
+						</div>
 
 						<div class="clearfix"></div>
-						<br />
 
-						<div>
-							<p>©2017 All Rights Reserved.</p>
+						<div class="separator">
+							<p class="change_link">
+								 <a href="${pageContext.request.contextPath}" class="to_register">返回入口 </a>
+							</p>
+
+							<div class="clearfix"></div>
+							<br />
+
+							<div>
+								<p>©2017 All Rights Reserved.</p>
+							</div>
 						</div>
-					</div>
-				</form>
+					</form>
 				</section>
 			</div>
 
-			<div id="register" class="animate form registration_form">
-				<section class="login_content">
-				<form>
-					<h1>注册账号</h1>
-					<div>
-						<input type="text" class="form-control" placeholder="用户名"
-							required="" />
-					</div>
-					<div>
-						<input type="email" class="form-control" placeholder="邮箱"
-							required="" />
-					</div>
-					<div>
-						<input type="password" class="form-control" placeholder="密码"
-							required="" />
-					</div>
-					<div>
-						<input type="submit" value="提交" class="btn btn-default submit">
-						<input type="reset" value="重填" class="btn btn-default submit">
-					</div>
-
-					<div class="clearfix"></div>
-
-					<div class="separator">
-						<p class="change_link">
-							已有帐号 ? <a href="#signin" class="to_register"> 登录 </a>
-						</p>
-
-						<div class="clearfix"></div>
-						<br />
-
-						<div>
-							<p>©2017 All Rights Reserved.</p>
-						</div>
-					</div>
-				</form>
-				</section>
-			</div>
 		</div>
 	</div>
 </body>

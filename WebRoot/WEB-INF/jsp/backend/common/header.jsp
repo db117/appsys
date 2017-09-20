@@ -81,20 +81,7 @@
 									<ul class="nav child_menu">
 										<li><a
 											href="${pageContext.request.contextPath }/backend/appList">APP审核</a></li>
-										<li><a href="#">广告推广</a></li>
-									</ul></li>
-								<li><a><i class="fa fa-home"></i> 用户管理 <span
-										class="fa fa-chevron-down"></span></a>
-									<ul class="nav child_menu">
-										<li><a href="#">后台用户管理</a></li>
-										<li><a href="#">开发者资质审核</a></li>
-									</ul></li>
-								<li><a><i class="fa fa-edit"></i> 基础数据维护 <span
-										class="fa fa-chevron-down"></span></a>
-									<ul class="nav child_menu">
-										<li><a href="#">数据字典</a></li>
-										<li><a href="#">APP分类管理</a></li>
-									</ul></li>
+										</ul></li>
 							</ul>
 						</div>
 
